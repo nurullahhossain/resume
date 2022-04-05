@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Resume Assistant</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="logo">Resume Assistant</h2>
+            <div class="create">
+            <button class="btn">Login</button>
+            <button class="btn">Signup</button>
+        </div>
+    </nav>
+    <h2 class="center">AI Resume Writing Assistant </h2>
+    <section>
+        <div class="resume" onclick="handleClick('Resume Headline Writer')">
+            <div class="resume__inner">
+                <div class="resume__inner__left">
+                    <span class="box-1">A</span>
+                </div>
+                <div class="resume__innner__right">
+                    <h3>Resume Headline Writer</h3>
+                    <p>Create an attention-grabbing headline for your resume or CV with just a few clicks!</p>
+                </div>
+            </div>
+        </div>  
+        <div class="resume" onclick="handleClick('LinkedIn Headline Writer')">
+            <div class="resume__inner">
+                <div class="resume__inner__left">
+                    <span class="box-2">A</span>
+                </div>
+                <div class="resume__innner__right">
+                    <h3>LinkedIn Headline Writer</h3>
+                    <p>Create an attention-grabbing LinkedIn Headline in seconds!</p>
+                </div>
+            </div>
+        </div>  
+        <div class="resume" onclick="handleClick('Resume Bullet Points Writer')">
+            <div class="resume__inner">
+                <div class="resume__inner__left">
+                    <span class="box-3">A</span>
+                </div>
+                <div class="resume__innner__right">
+                    <h3>Resume Bullet Points Writer</h3>
+                    <p>Instantly create powerful Resume Bullet Points that will make employers take notice!</p>
+                </div>
+            </div>
+        </div>  
+        <div class="resume" onclick="handleClick('LinkedIn Bio Writer ')">
+            <div class="resume__inner">
+                <div class="resume__inner__left">
+                    <span class="box-4">A</span>
+                </div>
+                <div class="resume__innner__right">
+                    <h3>LinkedIn Bio Writer </h3>
+                    <p>Instantly create a powerful LinkedIn Bio that will make employers take notice.</p>
+                </div>
+            </div>
+        </div>  
+        <div class="resume" onclick="handleClick('Resume Skills Explorer')">
+            <div class="resume__inner">
+                <div class="resume__inner__left">
+                    <span class="box-5">A</span>
+                </div>
+                <div class="resume__innner__right">
+                    <h3>Resume Skills Explorer</h3>
+                    <p>Optimize your resume with relevent keyword  suggestions, </p>
+                </div>
+            </div>
+        </div>  
+        <div class="resume" onclick="handleClick('Keyword Suggestions')">
+            <div class="resume__inner">
+                <div class="resume__inner__left">
+                    <span class="box-6">A</span>
+                </div>
+                <div class="resume__innner__right">
+                    <h3>Keyword Suggestions</h3>
+                    <p>Optimize your resume with relevent keyword  suggestions, </p>
+                </div>
+            </div>
+        </div>  
+        <div class="resume" onclick="handleClick('Resume Summary Writer')">
+            <div class="resume__inner">
+                <div class="resume__inner__left">
+                    <span class="box-7">A</span>
+                </div>
+                <div class="resume__innner__right">
+                    <h3>Resume Summary Writer</h3>
+                    <p>Instantly create a powerful resume summary that will make employers take notice.</p>
+                </div>
+            </div>
+        </div>  
+        <div class="resume" onclick="handleClick('Cover Letter Writer')">
+            <div class="resume__inner">
+                <div class="resume__inner__left">
+                    <span class="box-8">A</span>
+                </div>
+                <div class="resume__innner__right">
+                    <h3>Cover Letter Writer</h3>
+                    <p>Instantly create a powerful Cover Letter that will make employers take notice.</p>
+                </div>
+            </div>
+        </div>  
+            
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3 id="modalTitle">Resume Headline Writer</h3>
+                <div class="login">    
+                    <form id="login">    
+                        <label>Job Role</label> <br>
+                        <input type="text"id="Uname" placeholder="Accountant, Java Programmar">    
+                        <br><br>    
+                        <label>Skil</label> <br>
+                        <input type="text" id="Pass" placeholder="PHP Markting">    
+                        <br><br>    
+                        <button id="log">Generate Headline </button>
+                        <!-- <input type="button"  value="Generate Headline">            -->
+                    </form>     
+                </div>    
+            </div>
+        </div>
+        
+    </section>
+    <script src="./app.js"></script>
+</body> 
+</html> 

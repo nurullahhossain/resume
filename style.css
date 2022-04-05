@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+    border: none;
+}
+nav{
+    top: 0;
+    width: 100%;
+    background: #2589ff;
+    padding: 1rem;
+    position: fixed;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .container h2{
+    font-family: 'Eczar', serif;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 163px;
+    cursor: pointer;
+}
+.container button{
+    height: 50px;
+    width: 138px;
+    border-radius: 5px;
+    padding: 25px, 34px, 25px, 34px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 900;
+   margin-right: 50px;
+   font-size: 15px;
+   cursor: pointer;
+   color: blue;
+}
+.container .create{
+    margin-right: 50px;
+}
+.center{
+    text-align: center;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    padding-top: 3em;
+}
+
+section{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 300px;
+    margin-top: 80px;
+}
+section .resume{
+    width: 48%;
+    /* background-color: aliceblue; */
+    margin: 10px 0;
+}
+
+.resume__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.resume__inner__left{
+    width: 20%;
+    
+}
+.resume__inner__left .box-1{
+    cursor: pointer;
+    display: block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    background-color: #2589FF;
+    text-align: center;
+    border-radius: 10px;
+}
+.resume__inner__left .box-2{
+    cursor: pointer;
+    display: block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    background: #F4A93E;
+    text-align: center;
+    border-radius: 10px;
+}
+.resume__inner__left .box-3{
+    cursor: pointer;
+    display: block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    background: #FF6C3E;
+    text-align: center;
+    border-radius: 10px;
+}
+.resume__inner__left .box-4{
+    cursor: pointer;
+    display: block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    background: #1AC17F;
+    text-align: center;
+    border-radius: 10px;
+}
+.resume__inner__left .box-5{
+    cursor: pointer;
+    display: block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    background: #E26BDD;
+    text-align: center;
+    border-radius: 10px;
+}
+.resume__inner__left .box-6{
+    cursor: pointer;
+    display: block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    background: #E26BDD;
+    text-align: center;
+    border-radius: 10px;
+}
+.resume__inner__left .box-7{
+    cursor: pointer;
+    display: block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    background: #7850E0;
+    text-align: center;
+    border-radius: 10px;
+}
+.resume__inner__left .box-8{
+    cursor: pointer;
+    display: block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    background: #1AC17F;
+    text-align: center;
+    border-radius: 10px;
+}
+.resume__innner__right{
+    width: 75%;
+}
+
+.resume__inner__right h3{
+font-size: 26px;
+}
+.resume__inner__right p{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background: #EDEDED;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid red;
+    width: 1000px;
+    height: 500px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.login{
+    margin: 30px 40px;
+}
+.modal-content h3{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+}
+label{  
+    color: black;  
+    font-size: 17px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px
+}
+
+#Uname{  
+    height: 48px;
+    width: 613px;
+    top: 28px;
+    border-radius: 5px;
+    padding: 10px, 15px, 10px, 15px;
+}
+#Pass{  
+    height: 48px;
+    width: 613px;
+    top: 28px;
+    border-radius: 5px;
+    padding: 10px, 15px, 10px, 15px;
+}    
+#log{  
+    width: 154px;
+    height: 48px; 
+    border: none;  
+    border-radius: 5px;  
+    background: #5E5BFF;
+    border: 1px solid #5E5BFF;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    margin-top: 35px;
+}
+input{
+    padding-left: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
